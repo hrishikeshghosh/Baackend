@@ -1,0 +1,8 @@
+.wails-titlebar {
+  padding: 50px; /* Adjust padding as needed */
+}
+
+.wails-titlebar .wails-titlebar-brand {
+  font-weight: bold;
+  margin-left: 5px;
+}

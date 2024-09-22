@@ -16,7 +16,6 @@ function App() {
 
     return (
         <div id="App">
-            <h1 className=' text-9xl text-white'>HEllO From Baackend!</h1>
         </div>
     )
 }

@@ -4,7 +4,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+         "window-gray":"#222831"
+      } 
+    },
   },
   variants: {
     extend: {},

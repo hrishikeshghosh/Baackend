@@ -13,6 +13,7 @@ import (
 )
 
 //go:embed all:frontend/dist
+//go:embed frontend/src/assets/style.css
 var assets embed.FS
 
 //go:embed frontend/src/assets/images/icons/icon-main.png
@@ -28,7 +29,7 @@ func main() {
 		Width:            1024,
 		Height:           768,
 		WindowStartState: options.Maximised,
-		Frameless:        true,
+		Frameless:        false,
 		AssetServer: &assetserver.Options{
 			Assets: assets,
 		},
